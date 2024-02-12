@@ -11,8 +11,11 @@ Ele me foi útil para colocar em prática os ensinamentos do Caio Delgado: https
 # Como os usuários podem começar a usar o projeto?
 
 1 - Preparar o ambiente, recomendo o curso do Caio Delgado sobre o Vagrant: https://youtu.be/PX6OmeIbjC4
+
 2 - Clonar este repositório. Se ficar com dúvidas recomendo o vídeo do Christian Lempa: https://www.youtube.com/watch?v=syzwLwE3Xq4&t=524s
+
 3 - Implementar o SWARM, segue um dos links que usei, do Bob Cares: https://bobcares.com/blog/install-docker-swarm-cluster-on-debian-10/
+
 4 - Executar o comando abaixo para implantar o container DNS:
 
 docker stack deploy --compose-file=docker-compose.yml srvdns00 
@@ -28,4 +31,3 @@ Caso tenham dúvidas que não estejam documentadas podem me contactar: devops@ss
 # Quem mantém e contribui com o projeto?
 
 Por enquanto é um projeto solo, surgindo parceria eu adiciono depois.
-
