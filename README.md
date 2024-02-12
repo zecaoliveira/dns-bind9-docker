@@ -36,7 +36,7 @@ If you have questions that are not documented, you can contact me: devops@sso.de
 
 For now it's a solo project, with a partnership coming up I'll add it later.
 
-############################################################################################################
+#######################################################################
 
 # PT-BR
 
