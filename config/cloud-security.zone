@@ -1,0 +1,23 @@
+$TTL 2d
+
+$ORIGIN cloudsecurity.devops.
+
+@       IN      SOA     ns.cloudsecurity.devops.        info.cloudsecurity.devops. (
+                        2024021101      ; Serial
+                        12h             ; Refresh
+                        15m             ; Retry
+                        3w              ; Expire
+                        2h              ; Minimum TTL
+                        )
+        IN      NS      ns1.cloudsecurity.devops.
+ns1               IN      A      172.16.0.201
+ns2               IN      A      172.16.0.202
+ns3               IN      A      172.16.0.203
+srvmanager01      IN      CNAME  ns1
+srvworker01       IN      CNAME  ns2
+srvworker02       IN      CNAME  ns3
+srvfrw01          IN      A      10.0.0.1
+srvfrw01          IN      A      172.16.0.1
+srvfrw01          IN      A      192.168.61.1
+srvpve01          IN      A      172.16.0.10
+srvpve01          IN      A      10.0.0.10
