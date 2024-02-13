@@ -1,6 +1,8 @@
-# EN
+# README.md
 
-# Configure DNS server using BIND9 in Docker SWARM
+## EN
+
+## Configure DNS server using BIND9 in Docker SWARM
 
 - What does the project do?
 
@@ -36,11 +38,11 @@ If you have questions that are not documented, you can contact me: devops@sso.de
 
 For now it's a solo project, with a partnership coming up I'll add it later.
 
-#######################################################################
+##############################################################################################################################################
 
-# PT-BR
+## PT-BR
 
-# Configurar servidor DNS usando BIND9 no Docker SWARM
+## Configurar servidor DNS usando BIND9 no Docker SWARM
 
 - O que o projeto faz?
 
