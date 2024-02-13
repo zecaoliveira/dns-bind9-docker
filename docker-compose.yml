@@ -2,7 +2,7 @@ version: '3'
 
 services:
   bind9:
-    #container_name: dns-bind9-docker
+    #container_name: dns-bind9-docker // Só deve ser usado quando se está executando o container sem um cluster, com cluster SWARM o comando stack provisiona o nome automaticamente.
     image: ubuntu/bind9:latest
     environment:
       - BIND9_USER=root
@@ -16,4 +16,4 @@ services:
       - ./records:/var/lib/bind
     deploy:
       replicas: 2 
-    restart: unless-stopped
+    #restart: unless-stopped // Não é necessário pois está incluso em um cluster SWARM.
