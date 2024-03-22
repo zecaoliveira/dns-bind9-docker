@@ -68,7 +68,9 @@ docker stack deploy --compose-file=docker-compose.yml srvdns00
 
 5 - Executar os testes de conexão usando o comando "nslookup":
 
-nslookup registro.br 172.16.0.203
+nslookup registro.br 172.16.0.201
+
+![image](https://github.com/zecaoliveira/dns-bind9-docker/assets/42525959/c4dcc27c-7586-45b1-ad6c-d01f7d5ea7dd)
 
 - Onde os usuários podem obter ajuda com seu projeto?
 
